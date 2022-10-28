@@ -60,6 +60,12 @@ input {
   border-radius: 3px;
   color: #383838;
 }
+
+/* datalist {
+  background-color: #fafafa;
+  color:#383838;
+  cursor: pointer;
+} */
 .submit {
   position: absolute;
   top: 126px;
