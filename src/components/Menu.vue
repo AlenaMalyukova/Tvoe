@@ -1,6 +1,6 @@
 <template>
   <div class="menu">
-    <button class="menu-page" v-for="link in links" :key="link">{{link.name}}</button>
+    <button class="menu-page" v-for="link in links" :key="link.name">{{link.name}}</button>
   </div>
 </template>
 
@@ -53,11 +53,13 @@ export default {
   text-transform: uppercase;
   font-size: 13px;
   cursor: pointer;
-  padding: 17px 57px;
+  padding: 17px 55px;
   box-sizing: border-box;
   border:none;
   background-color: inherit;
   text-align: center;
+  line-height: 1.5;
+  /* letter-spacing: 1px; */
 }
 
 .menu-page:hover {
