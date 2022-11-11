@@ -10,8 +10,8 @@
         <div class="add-to-busket__animate"></div>      
       </button>
     </div>
-    <div class="choose-color"></div>
-    <div class="choose-size"></div>
+    <!-- <div class="choose-color"></div>
+    <div class="choose-size"></div> -->
   </div>
 </template>
 
@@ -44,13 +44,13 @@ export default {
   height: max-content;
   background-color: #fff;
   position: absolute;
-  bottom: -61px;
+  bottom: -57px;
   left: 0px;
   box-shadow: -5px 5px 10px 5px #ececec;
 }
 
 .add {
-  max-height: 60px;
+  max-height: 56px;
   display: flex;
 }
 
@@ -59,8 +59,9 @@ export default {
   background-color: #fafafa;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: stretch;
+  justify-content: space-around;
   align-items: center;
+  padding: 16px 0;
 }
 
 .add-number:hover {
@@ -70,7 +71,10 @@ export default {
 .add-number__sign {
   color: rgb(173, 173, 173);
   font-size: 20px;
-  padding: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
 }
 
 .add-number__sign:hover {
@@ -79,11 +83,12 @@ export default {
 
 .sign-minus {
   font-size: 22px;
+  /* max-height: 25px; */
+  text-align: center;
 }
 
 .add-number__amount {
   background-color: #fafafa;
-  padding: 16px;
 }
 
 button {
@@ -118,19 +123,4 @@ button {
   background-color: #98e790;
   transition-duration: .5s;
 }
-
-/* .add-to-busket__animate {
-  display: block;
-  animation: moveAround 0.5s infinite linear;
-} */
-
-/* @keyframes moveAround {
-  from {
-    transform: scale(1);
-  }
-
-  to {
-    transform: scale(10);
-  }
-} */
 </style>
