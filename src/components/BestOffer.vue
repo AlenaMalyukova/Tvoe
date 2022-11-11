@@ -195,7 +195,7 @@ export default {
   display: flex;
   flex-direction: column;
   background-color: #f9f9fa;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 .best-offer {
   padding: 60px 30px 0;
@@ -223,8 +223,4 @@ button {
 .active {
   border-bottom: 2px solid black;
 }
-
-/* .cards {
-  max-height: 450px;
-} */
 </style>

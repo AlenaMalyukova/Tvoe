@@ -7,6 +7,8 @@
     <Menu></Menu>
     <MainBanner></MainBanner>
     <BestOffer/>
+    <Categories/>
+    <AboutCompany/>
   </div>
 </template>
 
@@ -16,6 +18,8 @@ import Menu from './components/Menu'
 import MainBanner from './components/MainBanner' 
 import BestOffer from './components/BestOffer'
 import MDelivery from './components/modals/MDelivery'
+import Categories from './components/Categories'
+import AboutCompany from './components/AboutCompany'
 
 export default {
   name: 'App',
@@ -24,8 +28,10 @@ export default {
     Menu,
     MainBanner,
     BestOffer,
-    MDelivery
-  },
+    MDelivery,
+    Categories,
+    AboutCompany
+},
   data: () => ({
     isModalVisible: true
   }),

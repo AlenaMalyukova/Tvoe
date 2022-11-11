@@ -63,7 +63,7 @@ export default {
   margin: 30px;
   display: flex;
   flex-wrap: wrap;
-  background-color: #fff;
+  /* width: 100%; */
 }
 
 .card {
@@ -73,6 +73,7 @@ export default {
   position: relative;
   border: 1px solid #ececec;
   box-sizing: content-box;
+  background-color: #fff;
 }
 
 .card:hover {
