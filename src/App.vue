@@ -6,7 +6,7 @@
     <Header></Header>
     <Menu></Menu>
     <MainBanner></MainBanner>
-    <BestOffer></BestOffer>
+    <BestOffer/>
   </div>
 </template>
 
