@@ -5,6 +5,7 @@
       @closeModal="closeModal"/>
     <Header></Header>
     <Menu></Menu>
+    
     <MainBanner></MainBanner>
     <BestOffer/>
     <Categories/>
