@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="wrap-category">
     <div class="category" v-for="category in categoriesList" :key="category.title">
       <div class="text">
         <a class="text__title" :href="category.mainLink.link">
@@ -89,7 +89,7 @@ export default {
 }
 </script>
 <style scoped>
-.wrapper {
+.wrap-category {
   padding: 65px 30px;
   background-color: #fff;
   display: grid;
@@ -98,7 +98,6 @@ export default {
 }
 
 .category {
-  /* width: 45%; */
   background-color: #f3f4f6;
   max-height: 400px;
   display: flex;

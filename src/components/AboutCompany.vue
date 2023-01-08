@@ -1,7 +1,7 @@
 <template>
-  <div class="wrapper">
+  <div class="wrap-company">
     <a href="#">О компании</a>
-    <div class="wrap">
+    <div class="wrap-text">
       <div class="text">
         <div class="text__title">
           ТВОЕ - интернет-магазин одежды, обуви и аксессуаров
@@ -16,7 +16,7 @@
           ТВОЕ – это качественная одежда, доступная для всех. ТВОЕ – это стильные вещи трендовых фасонов и разнообразных цветов. ТВОЕ – это вдохновение любимыми героями и яркий акцент в любом образе. ТВОЕ – это твой любимый магазин!
         </div>
         <button>Подробности
-          <div class="pulse"></div>
+          <div class="animate-pulse"></div>
         </button>
       </div>
       <img src="https://tvoe.ru/upload/iblock/ec0/7v418kaakmvijkb4ca3oelk3tt3ono0j.jpeg" alt="#">
@@ -42,7 +42,7 @@ export default {
 </script>
 
 <style scoped>
-.wrapper {
+.wrap-company {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -57,7 +57,7 @@ a {
   padding-bottom: 10px;
 }
 
-.wrap {
+.wrap-text {
   display: flex;
 }
 
@@ -100,14 +100,14 @@ button {
   overflow: hidden;
 }
 
-.pulse {
+.animate-pulse {
   position: absolute;
   top: 0;
   left: 0;
   width: 150px;
   height: 150px;
 }
-.pulse:hover {
+.animate-pulse:hover {
   animation: pulse 0.5s ease-out;
 }
 

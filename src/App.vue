@@ -5,11 +5,11 @@
       @closeModal="closeModal"/>
     <Header></Header>
     <Menu></Menu>
-    
     <MainBanner></MainBanner>
     <BestOffer/>
     <Categories/>
     <AboutCompany/>
+    <Footer @closeModal="closeModal"></Footer>
   </div>
 </template>
 
@@ -21,6 +21,7 @@ import BestOffer from './components/BestOffer'
 import MDelivery from './components/modals/MDelivery'
 import Categories from './components/Categories'
 import AboutCompany from './components/AboutCompany'
+import Footer from './components/Footer/Footer'
 
 export default {
   name: 'App',
@@ -31,13 +32,15 @@ export default {
     BestOffer,
     MDelivery,
     Categories,
-    AboutCompany
+    AboutCompany,
+    Footer
 },
   data: () => ({
     isModalVisible: true
   }),
   methods: {
     closeModal() {
+      console.log(300)
       this.isModalVisible = false
     }
   }

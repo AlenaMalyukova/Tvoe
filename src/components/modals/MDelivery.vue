@@ -1,12 +1,12 @@
 <template>
-    <button class="close-modal" @click="reloadPage" v-if="isRouterAlive">
-      <span class="close-modal__text">Бесплатная доставка от 2 000 руб. Самовывоз из магазинов - бесплатно</span>
-      <img 
-      class="close-modal__img" 
-      @click="closeModal"
-      src="https://img.icons8.com/material-rounded/24/FFFFFF/delete-sign.png" 
-      alt="Close"/>
-    </button>
+  <button class="delivery-modal" @click="reloadPage" v-if="isRouterAlive">
+    <span class="delivery-modal__text">Бесплатная доставка от 2 000 руб. Самовывоз из магазинов - бесплатно</span>
+    <img 
+    class="delivery-modal__img" 
+    @click="closeModal"
+    src="https://img.icons8.com/material-rounded/24/FFFFFF/delete-sign.png" 
+    alt="Close"/>
+  </button>
 </template>
 
 <script>
@@ -38,7 +38,7 @@ export default {
 </script>
 
 <style scoped>
-.close-modal {
+.delivery-modal {
   width: 100%;
   max-height: 50px;
   background-color: #000;
@@ -47,7 +47,7 @@ export default {
   cursor: pointer;
 }
 
-.close-modal__text {
+.delivery-modal__text {
   font-size: 14px;
 }
 

@@ -120,7 +120,8 @@ button {
 }
 
 .add-to-busket:hover {
-  background-color: #98e790;
-  transition-duration: .5s;
+  background-color: #65b45d;
+  transition-duration: .3s;
+  transition-delay: 0.1s;
 }
 </style>

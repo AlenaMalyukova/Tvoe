@@ -1,6 +1,6 @@
 <template>
   <div class="cards-wrap">
-    <div 
+    <div
       class="card" 
       v-for="card in list" 
       :key="card.art" 
@@ -40,6 +40,7 @@ export default {
   data: () => ({
     isDropDown: false,
     selectedCard: null,
+    // isModalVisible: false
   }),
   methods: {
     mouseOver(art) {
@@ -63,7 +64,6 @@ export default {
   margin: 30px;
   display: flex;
   flex-wrap: wrap;
-  /* width: 100%; */
 }
 
 .card {
