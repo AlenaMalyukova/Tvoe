@@ -1,10 +1,10 @@
 <template>
   <div class="header">
-      <div class="wrap">
-        <img class="logo" src="@/assets/TVOE-logo.svg" alt="TVOE">
-        <SelectCity/>
-      </div>
-      <HeaderNavigation/>
+    <div class="wrap-logo">
+      <img class="wrap-logo__logo" src="@/assets/TVOE-logo.svg" alt="TVOE">
+      <SelectCity/>
+    </div>
+    <HeaderNavigation/>
   </div>
 </template>
 
@@ -27,10 +27,11 @@ export default {
   padding: 20px;
   padding-bottom: 17px;
 }
-.wrap {
+.wrap-logo {
   display: flex;
+  align-items: center;
 }
-.logo {
+.wrap-logo__logo {
   max-width: 129px;
   max-height: 45px;
   margin-right: 107px;

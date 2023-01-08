@@ -2,8 +2,8 @@
   <div class="banner">
     <div class="slider">
       <img :src="srcImg">
-      <button class="left" @click="sliderBack"></button>
-      <button class="right" @click="sliderNext"></button>
+      <button class="slider__left" @click="sliderBack"></button>
+      <button class="slider__right" @click="sliderNext"></button>
     </div>
   </div>
 </template>
@@ -85,6 +85,7 @@ export default {
 </script>
 
 <style scoped>
+
 .slider {
   position: relative;
 }
@@ -133,20 +134,20 @@ button:hover {
   transition: all 0.5s ease;
 }
 
-.left {
+.slider__left {
   background-image: url(https://img.icons8.com/ios-glyphs/30/000000/chevron-left.png);
   left: 10px;
 }
-.left:hover {
+.slider__left:hover {
   background-image: url(https://img.icons8.com/ios-glyphs/30/ffffff/chevron-left.png);
 }
 
-.right {
+.slider__right {
   background-image: url(https://img.icons8.com/ios-glyphs/30/000000/chevron-right.png);
   right: 10px;
 }
 
-.right:hover {
+.slider__right:hover {
   background-image: url(https://img.icons8.com/ios-glyphs/30/ffffff/chevron-right.png);
 }
 </style>

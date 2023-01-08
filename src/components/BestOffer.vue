@@ -1,5 +1,5 @@
 <template>
-  <div class="wrap">
+  <div class="wrap-cards">
     <div class="best-offer">
       <div class="best-offer__title">Лучшие предложения</div>
       <div class="filter">
@@ -191,7 +191,7 @@ export default {
 </script>
 
 <style scoped>
-.wrap {
+.wrap-cards {
   display: flex;
   flex-direction: column;
   background-color: #f9f9fa;

@@ -47,10 +47,14 @@ export default {
   display: flex;
   flex-direction: column;
 }
+
 h2 {
   padding-bottom: 15px;
   text-align: start;
+  color: #333;
 }
+
+/* изменить границу и цвет поля при клике */
 input {
   width: 340px;
   padding: 13px 17px;
